@@ -1,0 +1,199 @@
+/* Main CSS file */
+
+/*.container-fluid {
+  width: 700px;
+}*/
+
+
+#graphic {
+  padding-top: -60px;
+}
+
+
+body {
+  
+  font-size: 0.8em;
+  line-height: 1.5;
+  background-color: #fafafa;
+}
+
+h2 {
+  color: #024453;
+  font-size: 4vw;
+}
+
+h3 {
+  color: #024453;
+   font-size: 3vw;
+}
+
+p {
+  color: #111;
+  font-size: 1.5vw;
+}
+
+/*.innerlink {
+  font-size: 14px;
+  color: #1d83af
+}*/
+
+/* Main column widths */
+.column {
+  float: left;
+  padding: 1px;
+}
+
+.left {
+  float: left;
+  padding: 2px;
+  width: 20%;
+}
+
+.middle {
+  width: 80%;
+}
+
+
+.step-circle {
+  width: 5vw;
+  line-height: 5vw;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 5vw;
+  border: 2px solid #666;
+  background: #fff;
+  border: 2px solid #666;
+  color: #666;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 25px;
+}
+
+
+/* style for pictogram */
+text {
+  fill: black;
+  text-anchor: middle;
+  font-size: 12px;
+  font-family: sans-serif, Helvetica, Arial;
+  font-weight: bold;
+}
+
+
+
+.people-of-color {
+
+  fill: #4191cf;
+  color: #4191cf;
+}
+
+.people-of-white {
+
+  fill: #f2ca02;
+  color: #f2ca02;
+}
+
+
+#iconCustom path {
+  padding-bottom: 2px;
+}
+
+.sample {
+  width: 15px;
+  padding-left: .5em;
+}
+
+
+.income-color-scale{
+  font-size: 15 ;
+
+}
+
+#extra-space {
+  height: 300px;
+}
+
+.notice {
+  font-size: 18px;
+  font-weight: bold;
+  color:#024453;
+  
+}
+
+
+.income-color-scale {
+  font-size: 2vw;
+}
+
+
+.income-color-scale .legendCells .cell:nth-of-type(2) > .label {
+  opacity: 0;
+}
+
+
+.income-color-scale .legendCells .cell:nth-of-type(3) > .label {
+  opacity: 0;
+}
+
+.income-color-scale .legendCells .cell:nth-of-type(4) > .label {
+  opacity: 0;
+}
+
+.income-color-scale .legendCells .cell:nth-of-type(5) > .label {
+  opacity: 0;
+}
+
+.income-color-scale .legendCells .cell:nth-of-type(6) > .label {
+  opacity: 0;
+}
+
+.income-color-scale-treat {
+  font-size: 2vw;
+}
+
+
+.income-color-scale-treat .legendCells .cell:nth-of-type(2) > .label {
+  opacity: 0;
+}
+
+
+.income-color-scale-treat .legendCells .cell:nth-of-type(3) > .label {
+  opacity: 0;
+}
+
+.income-color-scale-treat .legendCells .cell:nth-of-type(4) > .label {
+  opacity: 0;
+}
+
+.income-color-scale-treat .legendCells .cell:nth-of-type(5) > .label {
+  opacity: 0;
+}
+
+.income-color-scale-treat .legendCells .cell:nth-of-type(6) > .label {
+  opacity: 0;
+}
+
+
+/* css to make the last bar graphs fit into the width*/
+
+/*
+.y-axis-race-obs .tick text{
+  font-size:8px;
+}
+
+.y-axis-race-treat .tick text{
+  font-size:8px;
+}
+
+.x-axis-race-treat .tick text{
+  font-size: 10px;
+}
+
+.y-label-race-obs {
+   font-size:10px;
+}
+
+.y-label-race-treat{
+   font-size:10px;
+}
+*/
